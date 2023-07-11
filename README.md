@@ -26,7 +26,10 @@ Hooks como UseRef, useEffect, UseState.
 
 ## Demonstração
 
-https://github.com/Alef-Daniel/demos/blob/master/20230606_034349.mp4
+
+https://github.com/Alef-Daniel/appTarefas/assets/83924026/81ac461b-ee67-4df8-81cc-81ba47954c62
+
+
 ## Funcionalidades
 
 o App solicita um e-mail e senha, caso não tenha pode criar uma conta.
