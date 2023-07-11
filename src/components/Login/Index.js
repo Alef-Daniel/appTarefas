@@ -19,7 +19,7 @@ export default function Login({changeStatus}) {
             })
             .catch((err)=>{
                 console.log(err)
-                    alert('Algo deu errado!')
+                    alert('Usuário/Senha incorretos!')
                     return;
                })  
         }else{
