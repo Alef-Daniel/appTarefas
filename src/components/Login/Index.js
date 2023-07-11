@@ -41,7 +41,7 @@ export default function Login({changeStatus}) {
         <View >
           
           <TextInput placeholder='Seu e-mail' style={styles.input} value={email} onChangeText={(text)=>setEmail(text)}></TextInput>
-          <TextInput secureTextEntry={false} placeholder='*********' style={styles.input} value={password} onChangeText={(text)=>setPassword(text)}></TextInput>
+          <TextInput secureTextEntry={true} placeholder='*********' style={styles.input} value={password} onChangeText={(text)=>setPassword(text)}></TextInput>
             <TouchableOpacity  style={[styles.handleLogin, { backgroundColor: type === 'login'?'#3ea6f2': '#141414' } ]} onPress={handleLogin}>
                 <Text style={styles.loginText}>{type=== 'login'? 'Acessar': 'Cadastrar'}</Text>
             </TouchableOpacity>
