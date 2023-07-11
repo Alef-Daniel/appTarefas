@@ -10,7 +10,7 @@ export default function TaskList({data, deleteItem, editItem}) {
                 <Feather name='trash' color='#FFF' size={20}></Feather>
             </TouchableOpacity>
 
-            <View styel={{color:'#FFF', paddingRight: 10}}> 
+            <View style={{color:'#FFF', paddingRight: 10}}> 
                 <TouchableWithoutFeedback onPress={()=>editItem(data)}>
                     <Text style={{color:'#FFF', paddingRight: 10}}>{data.nome}</Text>
                 </TouchableWithoutFeedback>
