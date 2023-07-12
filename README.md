@@ -16,8 +16,6 @@ renderização condicional.
 
 CRUD no firebase.
 
-Estilização Styled Components.
-
 Utilização de Icons no projeto.
 
 Hooks como UseRef, useEffect, UseState.
